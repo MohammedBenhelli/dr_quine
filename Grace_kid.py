@@ -1,0 +1,1 @@
+import os;READ=lambda:open(os.path.basename(__file__), "r").readlines();WRITE_KID=lambda func:open("Grace_kid.py", "w").write(''.join([str(line) for line in func()]));EXEC=lambda:WRITE_KID(READ);EXEC()#commentaire
